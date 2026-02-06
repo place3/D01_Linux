@@ -21,17 +21,17 @@ Linux tizimini o’rnatish va yangilash. Ma’murlash asoslari
     - [Part 2. Foydalanuvchini yaratish](#part-2-foydalanuvchini-yaratish)
     - [Part 3. OT tarmog’i sozlamasi](#part-3-ot-tarmogi-sozlamasi)
     - [Part 4. OTni yangilash](#part-4-otni-yangilash)
-    - [Part 5. **sudo** buyrug’idan foydalanish](#part-5-sudo-buyrugidan-foydalanish)
+    - [Part 5. sudo buyrug’idan foydalanish](#part-5-sudo-buyrugidan-foydalanish)
     - [Part 6. Vaqt xizmatini o’rnatish va sozlash](#part-6-vaqt-xizmatini-ornatish-va-sozlash)
     - [Part 7. Matn muharrirlarini o'rnatish va ulardan foydalanish](#part-7-matn-muharrirlarini-ornatish-va-ulardan-foydalanish)
-    - [Part 8. **SSHD** xizmatini o'rnatish va asosiy konfiguratsiyasi](#part-8-sshd-xizmatini-ornatish-va-asosiy-konfiguratsiyasi)
-    - [Part 9. **top, htop** utilitalarini o’rnatish va ishlatish](#part-9-top-htop-utilitalarini-ornatish-va-ishlatish)
-    - [Part 10. **fdisk** Utilitasidan foydalanish](#part-10-fdisk-utilitasidan-foydalanish)
-    - [Part 11. **df** Utilitasidan foydalanish](#part-11-df-utilitasidan-foydalanish)
-    - [Part 12. **du** utilitasidan foydalanish](#part-12-du-utilitasidan-foydalanish)
-    - [Part 13. **ncdu** utilitalarini o’rnatish va foydalanish](#part-13-ncdu-utilitalarini-ornatish-va-foydalanish)
+    - [Part 8. SSHD xizmatini o'rnatish va asosiy konfiguratsiyasi](#part-8-sshd-xizmatini-ornatish-va-asosiy-konfiguratsiyasi)
+    - [Part 9. top, htop utilitalarini o’rnatish va ishlatish](#part-9-top-htop-utilitalarini-ornatish-va-ishlatish)
+    - [Part 10. fdisk Utilitasidan foydalanish](#part-10-fdisk-utilitasidan-foydalanish)
+    - [Part 11. df Utilitasidan foydalanish](#part-11-df-utilitasidan-foydalanish)
+    - [Part 12. du utilitasidan foydalanish](#part-12-du-utilitasidan-foydalanish)
+    - [Part 13. ncdu utilitalarini o’rnatish va foydalanish](#part-13-ncdu-utilitalarini-ornatish-va-foydalanish)
     - [Part 14. Tizimli jurnallar bilan ishlash](#part-14-tizimli-jurnallar-bilan-ishlash)
-    - [Part 15. **CRON** rejalashtiruvchisidan foydalanish](#part-15-cron-rejalashtiruvchisidan-foydalanish)
+    - [Part 15. CRON rejalashtiruvchisidan foydalanish](#part-15-cron-rejalashtiruvchisidan-foydalanish)
 
 ## Chapter I
 
@@ -164,7 +164,7 @@ Ishingiz natijasida siz bajarilgan vazifalar haqida hisobot berishingiz kerak. V
 - Tizim paketlarini yangilagandan so'ng, agar siz yangilash buyrug'ini yana kiritsangiz, yangilanishlar yo'qligini ko'rsatadigan xabar paydo bo'lishi kerak.
 - Hisobotingizga ushbu xabarning skrinshotini kiriting.
 
-## Part 5. **sudo** buyrug’idan foydalanish 
+## Part 5. sudo buyrug’idan foydalanish 
 
 `-` Bolaligingda senga “Sehrli so’z”ni aytishni unutmadingmi deb qanchalik tez-tez aytishgan? Shunday “sehrli” so’zlardan biri “iltimos” so’zi edi. “Linux”da-*sudo*ning analogi mavjud. Tizim “sehrli so’z”ni eshitmaguncha ba’zi bir operatsiyalarni bajarmaydi.
 
@@ -189,7 +189,7 @@ Ishingiz natijasida siz bajarilgan vazifalar haqida hisobot berishingiz kerak. V
      `timedatectl show` bo’lishi kerak:
 - Hisobotga to'g'ri vaqt va buyruq chiqishi bilan skrinshotlarni joylashtiring.
 
-**Part 7. Matn muharrirlarini o'rnatish va ulardan foydalanish**
+## Part 7. Matn muharrirlarini o'rnatish va ulardan foydalanish
 
 `-` O’ylaymanki, biz eng dahshatli bosqichlardan biriga o'tishga tayyormiz.
 
@@ -228,7 +228,7 @@ Aynan shu yerda VIM ning birinchi versiyasi 1991- yil 2 -noyabrda chiqarilgan.
   - so'zlarni qidirish natijalari bilan har bir muharrirdan.
   - har bir muharrirdan so'zni boshqasiga almashtirish buyruqlari kiritilgan.
 
-## Part 8. **SSHD** xizmatini o'rnatish va asosiy konfiguratsiyasi
+## Part 8. SSHD xizmatini o'rnatish va asosiy konfiguratsiyasi
 
 `-` Tarmoq orqali bir kompyuterdan ikkinchisiga kirish qulay, to’g’rimi? Ammo u nafaqat qulay, balki xavfsiz ham bo’lishi uchun SSH xizmatidan foydalanishingiz kerak.
 
@@ -248,7 +248,7 @@ o’z ichiga olgan bo’lishi kerak. \
 - Buyruqning chiqishi bilan skrinshotni hisobotga joylashtir.
 - Hisobotda -tan kalitlarining ma'nosini, har bir chiqish ustunining ma'nosini, 0.0.0.0 ma'nosini tushuntir.
 
-## Part 9. **top, htop** utilitalarini o’rnatish va ishlatish 
+## Part 9. top, htop utilitalarini o’rnatish va ishlatish 
 
 `-` Agar mendan **top, htop** utilitalari qanday foydali ish bilan shug’ullanadi deb so’rasalar, men ikkita so’z aytaman hamma narsa
 
@@ -271,7 +271,7 @@ o’z ichiga olgan bo’lishi kerak. \
   - qidiruv yordamida topilgan syslog jarayoni bilan; 
   - qo'shilgan hostname, soat va ish vaqti chiqishi bilan.
 
-## Part 10. **fdisk** Utilitasidan foydalanish 
+## Part 10. fdisk Utilitasidan foydalanish 
 
 `-` Keling, endi qattiq disk haqida qanday ma'lumot olishni aniqlaymiz. Aynan sen uchun men fdisk yordam dasturi bilan ishlashning bir nechta misollarini to'pladim.
 
@@ -281,7 +281,7 @@ o’z ichiga olgan bo’lishi kerak. \
 
 - Hisobotda qattiq disk nomini, uning o'lchamini va sektorlar sonini, shuningdek almashtirish hajmini yozing.
 
-## Part 11. **df** Utilitasidan foydalanish
+## Part 11. df Utilitasidan foydalanish
 
 `-` Biz qattiq disk haqida ma'lumot oldik, lekin ko'pincha df utilitasi yordamida olinishi mumkin bo'lgan disk maydoni haqidagi ma'lumotlar qiziqroq.
 
@@ -303,7 +303,7 @@ o’z ichiga olgan bo’lishi kerak. \
   - foydalanish foizi 
 - Bo’lim uchun fayl tizimining turini aniqlang va hisobotga yozing.
 
-## Part 12. **du** utilitasidan foydalanish 
+## Part 12. du utilitasidan foydalanish 
 
 `-` df - disk maydoni haqida ma'lumot olishning yagona usuli emas. Endi men sizga boshqasi haqida gapirib beraman.
 
@@ -315,7 +315,7 @@ o’z ichiga olgan bo’lishi kerak. \
 
 - Hisobotga barcha ishlatilgan buyruqlar chiqishi bilan skrinshotlarni kiriting.
 
-## Part 13. **ncdu** utilitalarini o’rnatish va foydalanish 
+## Part 13. ncdu utilitalarini o’rnatish va foydalanish 
 
 `-` Ehtimol sizga du buyrug’i ma'lumotni ko'rsatadigan format sizga yoqmasligi mumkin. Men sizni yaxshi tushunaman. Shuning uchun, endi biz uning takomillashtirilgan versiyasini ko'rib chiqamiz.
 
@@ -342,7 +342,7 @@ o’z ichiga olgan bo’lishi kerak. \
 - SSHd xizmatini qayta ishga tushiring.
 - Hisobotga xizmatni qayta ishga tushirish haqidagi xabar bilan skrinshotni kiriting (loglarga qarang).
 
-## Part 15. **CRON** rejalashtiruvchisidan foydalanish 
+## Part 15. CRON rejalashtiruvchisidan foydalanish 
 
 `-` Va nihoyat, biz uzoq hikoyaning oxirgi qismiga yetib keldik. Hozir men boshqa narsalar qatorida boshqa dasturlarning davriy qo'ng'iroqlarini sezilarli darajada soddalashtiradigan dasturni ko'rsataman.
 
